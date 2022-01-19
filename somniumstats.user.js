@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SomniumStats
 // @namespace    http://github.com/logianer
-// @version      0.1
+// @version      0.2
 // @description  Somnium-Bestand
 // @author       Logianer
 // @match        https://*.somniumcards.de/produkt/*

@@ -20,7 +20,7 @@ function addGlobalStyle(css) {
 addGlobalStyle(`#show_count {padding: .6em; margin: .5em; border: 0; background: rgba(0,0,0,0)}`)
 $("#atomion-summary-wrapper div.summary.entry-summary p.stock.in-stock").append(`<button id="show_count"><i class="fas fa-sync-alt fa-xl"></i></button><is></is>`)
 $("#show_count").click(async ()=>{
-    res = await fetch("https://somniumstats.duckdns.org/product/"+$(`[name="add-to-cart"]`).val())
+    res = await fetch("https://somniumfans.ddnss.de/product/"+$(`[name="add-to-cart"]`).val())
     data = await res.json()
     $("is").text(data.inStock)
 })

@@ -29,5 +29,6 @@
     "H21_ACK_WIN_35_GAMES": "true",
     "H21_ACK_PLAY_10_GAMES": "true",
     "H21_ACK_STEAL_1000": "true",
-    "H21_COLLECT_10_MEGA_FLAMES": "true"
+    "H21_COLLECT_10_MEGA_FLAMES": "true",
+    "H21_COUNTER_MOST_SPIRITS_COLLECTED": "6"
 }
